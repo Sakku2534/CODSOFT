@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="styles.css"></link>
+    <title>Personal Portfolio Website</title>
+</head>
+<body>
+
+<!--Header-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+<!--Home-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi! Myself</h3>
+            <h1>Sakshi Punia</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>A sincere and driven human looking for growth opportunities in the rapidly growing world. <br><br>
+                E-mail: mails180723@gmail.com <br>
+                Phone No. 8440926669</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="https://drive.google.com/file/d/1qc51AEnQvG-hgS6AMAOBQ4bt9aikVu_2/view?usp=sharing" class="btn">Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/profiledp.png" alt="">
+        </div>
+    </section>
+
+<!--About-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/aboutpic.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>A sincere and driven student seeking an enriching entry level opportunity in the field of Computer Science, with a solid
+                academic knowledge and practical foundation, to leverage technical skills and creative abilities to contribute to dynamic
+                web development projects. Committed to continuous learning and staying updated with emerging technologies in the
+                field. Eager to collaborate with a team to create engaging and user-friendly web experiences and gain knowledge from
+                the experienced professionals at a reputable organization.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+<!--Services-->
+<section class="services" id="services">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="services-container">
+        <div class="services-box">
+            <i class="fa-solid fa-code"></i>
+            <h3>Programming Languages</h3>
+            <p>Well-equipped in various prog. languages such as Java, JavaScript, C, Python</p>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-solid fa-palette"></i>
+            <h3>Web Development</h3>
+            <p>Knowledge of developing websites using HTML, CSS, JavaScript and frameworks</p>
+        </div>
+
+        <div class="services-box">
+            <i class="fa-regular fa-hourglass-half"></i>
+            <h3>Time Management</h3>
+            <p>Quick learner with a skill to manage time efficiently and completing tasks efficiently </p>
+        </div>
+    </div>
+</section>
+
+<!--Portfolio-->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="img/1.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Metro Fare Calculator</h4>
+                <p>A graph data structure to model the Delhi Metro map using Java.</p>
+                <a href="https://github.com/Sakku2534/Metro-Project"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img/2.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Personal Portfolio</h4>
+                <p>Resume in an interactive website structure</p>
+                
+                <a href="https://github.com/Sakku2534/portfolio"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="img/3.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Weather Web-App</h4>
+                <p>Web-App to fetch real-time weather information.</p>
+                <a href="https://github.com/Sakku2534/Weather"><i class="fa-solid fa-up-right-from-square"></i></a>
+                
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--Contact-->
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name...">
+            <input type="email" placeholder="Email Address...">
+        </div>
+        <div class="input-box">
+            <input type="number" placeholder="Phone No....">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+<!--Footer-->
+<footer class="footer">
+    <div class="footer-text">
+        <p>Copyright &copy; 2024 by Sakshi Punia | All Rights Reserved</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
